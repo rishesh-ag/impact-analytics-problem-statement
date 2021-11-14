@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<div class="file-problem complete-problem-statement black-333"><h1><strong>[Problem Statement]</strong></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Develop a pseudo Frontend Application in React which would let the users list and browse top candidates for a Job. You should solve the <strong>Minimum Requirements </strong>section. Attempting questions in the <strong>Plus Point</strong> section will give you additional credits.</p>
 
-## Available Scripts
+<h2><strong>[Minimum Requirement]</strong>&nbsp;</h2>
 
-In the project directory, you can run:
+<p>Use of Web API to fetch Candidate details.</p>
 
-### `npm start`
+<ul>
+	<li style="">
+	<p>Utilise Response Parameters:</p>
+	</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p style="margin-left: 36pt;">[ Image, name, id].</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+	<li style="">
+	<p>Implement functionality to list candidates on a web page.</p>
+	</li>
+</ul>
 
-### `npm test`
+<p>&nbsp;</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ol>
+	<li style="">
+	<p>Display Candidates as Cards (Images with Names).&nbsp;</p>
+	</li>
+	<li style="">
+	<p>Implement&nbsp; Search by Candidate name.&nbsp;</p>
+	</li>
+	<li style="">
+	<p>Submit Screenshot, Source code &amp; Instructions.</p>
+	</li>
+	<li style="">
+	<p>Please use core styling (CSS) and not any external library.</p>
+	</li>
+</ol>
 
-### `npm run build`
+<p>&nbsp;</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
+	<li style="">
+	<p>A feature to click on a Candidate to open a new page showing the details of the Candidate along with the given image and a Shortlist and a Reject Button. Page URL must be of the format “/:id” where id is the id of the Candidate. Clicking Shortlist/Reject must take appropriate action and take us back to the Home Page.</p>
+	</li>
+	<li style="">
+	<p>Shortlisted and Rejected tabs should be available in the Home Page. Clicking it must list all the Shortlisted and Rejected candidates appropriately in “/shortlisted” &amp; “/rejected” route.</p>
+	</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2><strong>[Plus Point]</strong>&nbsp;</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ul>
+	<li style="">
+	<p>Deploy your Frontend App on any Static Website Hosting Service. (This deployment link must be active for at least 2 weeks from Submission Date.)</p>
+	</li>
+	<li style="">
+	<p>Provide the Deployment URL along with Source Code in a .txt file</p>
+	</li>
+</ul>
 
-### `npm run eject`
+<h2><strong>[Appendix]</strong></h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>— Candidate API: <a href="https://s3-ap-southeast-1.amazonaws.com/he-public-data/users49b8675.json" style="" target="_blank"><u>https://s3-ap-southeast-1.amazonaws.com/he-public-data/users49b8675.json</u></a></p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>&nbsp;&nbsp;&nbsp; Note: Use this API to Fetch Candidate details.</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p>— Ideal Frontend Stack :</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<ul>
+	<li style="">
+	<p>*React only.</p>
+	</li>
+</ul>
 
-## Learn More
+<h2>&nbsp;</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2><strong>[Functional Test case]</strong></h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ol>
+	<li style="">
+	<p>Searching by candidate name should reflect the appropriate result for valid and invalid scenarios</p>
+	</li>
+	<li style="">
+	<p>Clicking Shortlist/Reject must take appropriate action and take back to the Home Page&nbsp;</p>
+	</li>
+	<li style="">
+	<p>Shortlisted and Rejected tabs should be available in the Home Page. Clicking it must list all the Shortlisted and Rejected candidates appropriately in “/shortlisted” &amp; “/rejected” route.</p>
+	</li>
+</ol></div>
 
-### Code Splitting
+<h2><strong>[Home Page]</strong>&nbsp;</h2>
+<img src="./img/HomePage.png">
+<h2>&nbsp;</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h2><strong>[On Search Results]</strong>&nbsp;</h2>
+<img src="./img/OnSearchResults.png">
+<h2>&nbsp;</h2>
 
-### Analyzing the Bundle Size
+<h2><strong>[Profile Page]</strong>&nbsp;</h2>
+<img src="./img/ProfilePage.png">
+<h2>&nbsp;</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h2><strong>[ShortListed Candidate]</strong>&nbsp;</h2>
+After selecting shorlist button, the candidate will appears under Shorlisted Candidates
+<h2>&nbsp;</h2>
+<img src="./img/ShortlistCandidates.png">
+<h2>&nbsp;</h2>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2><strong>[Rejected Candidate]</strong>&nbsp;</h2>
+After selecting shorlist button, the candidate will appears under Shorlisted Candidates
+<h2>&nbsp;</h2>
+<img src="./img/rejectedCandidates.png">
